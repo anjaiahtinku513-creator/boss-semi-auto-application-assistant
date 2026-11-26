@@ -1,0 +1,6 @@
+interface:
+  display_name: "面试准备报告"
+  short_description: "用最新公开资料、JD 与真实简历生成可追溯面试报告"
+  default_prompt: "使用 $interview-prep 为这家公司和岗位生成一份有来源的面试准备报告。"
+policy:
+  allow_implicit_invocation: true

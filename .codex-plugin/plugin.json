@@ -1,0 +1,22 @@
+{
+  "name": "boss-semi-auto-application-assistant",
+  "version": "0.1.0",
+  "description": "Human-reviewed BOSS job discovery, resume tailoring, HR reply drafting, and interview preparation.",
+  "author": {
+    "name": "Personal"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "BOSS 半自动化投递辅助",
+    "shortDescription": "半自动筛选岗位、定制简历、辅助 HR 沟通与面试准备",
+    "longDescription": "将岗位发现、事实约束的简历定制、HR 回复草稿和面试准备整合为一个人工审核工作流。插件不使用外部模型 API，不自动投递或发送消息，也不绕过招聘平台的登录、验证码和访问限制。",
+    "developerName": "Personal",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "帮我筛选与简历匹配的 BOSS 岗位并按规则排序。",
+      "根据这份 JD 生成事实可追溯的定制简历和打招呼话术。",
+      "分析 HR 回复，或为已经确认的面试生成有来源的准备报告。"
+    ]
+  }
+}

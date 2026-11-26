@@ -1,0 +1,6 @@
+interface:
+  display_name: "HR 对话辅助"
+  short_description: "识别招聘沟通意图与风险并生成待人工选择的真实回复草稿"
+  default_prompt: "使用 $hr-chat-assist 分析这条 HR 消息并给我 2-3 个可选回复。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "岗位发现与匹配"
+  short_description: "筛选、去重、评分并排序当前可见或手动提供的招聘岗位"
+  default_prompt: "使用 $job-discovery 按我的真实经历和求职条件筛选岗位并生成候选清单。"
+policy:
+  allow_implicit_invocation: true
